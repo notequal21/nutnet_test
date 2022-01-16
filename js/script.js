@@ -39,6 +39,15 @@ if (document.querySelector('.popup')) {
   })
 }
 
+$(document).ready(function () {
+    $('.header__btn').click(function (event) {
+        $('.header__btn, .header-menu').toggleClass('active');
+        $('body').toggleClass('lock');
+    });
+});
+
+
+
 function testWebP(callback) {
 
     var webP = new Image();
