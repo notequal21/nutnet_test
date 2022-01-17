@@ -47,6 +47,7 @@ $(document).ready(function () {
 });
 
 
+AOS.init();
 
 function testWebP(callback) {
 
