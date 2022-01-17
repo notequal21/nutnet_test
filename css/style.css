@@ -7037,7 +7037,7 @@ body.lock {
     max-width: 100%;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding: 150px 0 50px;
     min-height: 100vh;
     max-height: 100%;
     overflow-y: scroll;
