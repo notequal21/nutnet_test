@@ -7327,6 +7327,17 @@ body.lock {
   }
 }
 
+@media (max-width: 575px) {
+  .header__btn {
+    margin: 20px 15px 0 0;
+  }
+
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
 @media (max-width: 375px) {
   .works__btn-all {
     font-size: 12px;
