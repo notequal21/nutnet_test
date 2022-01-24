@@ -24,11 +24,13 @@
         <div class="popup">
   <div class="popup__bg"></div>
   <div class="popup-body">
-    <div class="popup-body__close">X</div>
+    <div class="popup-body__top">
+      <div class="popup-body__close">X</div>
+    </div>
     <div class="popup-body__video">
-      <iframe src="https://www.youtube.com/embed/KvUgaHTNit4" title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+      <iframe id="video-iframe" src="https://www.youtube.com/embed/KvUgaHTNit4?enablejsapi=1"
+        title="YouTube video player"
+        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
 </div>
@@ -66,15 +68,15 @@
     <div class="row align-middle justify-content-center">
       <!-- <div class="col-sm-10"> -->
       <div class="main-body">
-        <div data-aos="fade-up" class="main-body__title">
+        <h1 data-aos="fade-up" class="main-body__title">
           We Are Awesome Creative Agency
-        </div>
+        </h1>
         <div data-aos="fade-up" class="main-body__divider"></div>
-        <div data-aos="fade-up" class="main-body__text">
+        <p data-aos="fade-up" class="main-body__text">
           This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
           sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed
           odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
-        </div>
+        </p>
         <a href="#" data-aos="fade-up" class="main-body__btn">
           LEARN MORE
         </a>
@@ -93,9 +95,9 @@
       </div>
       <!-- <div class="col-sm-7"> -->
       <div class="story-content">
-        <div data-aos="fade-up" class="story__title">
+        <h2 data-aos="fade-up" class="story__title">
           OUR STORY
-        </div>
+        </h2>
         <div data-aos="fade-up" class="story__text">
           <p>
             This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
@@ -135,12 +137,12 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-sm-6">
-        <div data-aos="fade-up" class="expertise__title">
+        <h2 data-aos="fade-up" class="expertise__title">
           EXPERTISE
-        </div>
-        <div data-aos="fade-up" class="expertise__desc">
+        </h2>
+        <p data-aos="fade-up" class="expertise__desc">
           Lorem ipsum dolor sit amet proin gravida nibh vel velit
-        </div>
+        </p>
         <div data-aos="fade-up" class="expertise__divider"></div>
       </div>
     </div>
@@ -150,109 +152,110 @@
         <div class="expertise__item-ico">
           <div class="bg-put_your_icon_here_119"></div>
         </div>
-        <div class="expertise__item-name">
+        <h3 class="expertise__item-name">
           WEB DESIGN & DEVELOPMENT
-        </div>
-        <div class="expertise__item-desc">
-          This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.
-        </div>
+          </h2>
+          <p class="expertise__item-desc">
+            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.
+          </p>
       </div>
       <div data-aos="fade-up" class="col">
         <div class="expertise__item-ico">
           <div class="bg-put_your_icon_here_215"></div>
         </div>
-        <div class="expertise__item-name">
+        <h3 class="expertise__item-name">
           BRANDING IDENTITY
-        </div>
-        <div class="expertise__item-desc">
+        </h3>
+        <p class="expertise__item-desc">
           This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.
-        </div>
+        </p>
       </div>
       <div data-aos="fade-up" class="col">
         <div class="expertise__item-ico">
           <div class="bg-put_your_icon_here_216"></div>
         </div>
-        <div class="expertise__item-name">
+        <h3 class="expertise__item-name">
           MOBILE APP
-        </div>
-        <div class="expertise__item-desc">
+        </h3>
+        <p class="expertise__item-desc">
           This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.
-        </div>
+        </p>
       </div>
       <div data-aos="fade-up" class="col">
         <div class="expertise__item-ico">
           <div class="bg-put_your_icon_here_217"></div>
         </div>
-        <div class="expertise__item-name">
+        <h3 class="expertise__item-name">
           SEARCH ENGINE OPTIMIZATION
-        </div>
-        <div class="expertise__item-desc">
+        </h3>
+        <p class="expertise__item-desc">
           This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.
-        </div>
+        </p>
       </div>
       <div data-aos="fade-up" class="col">
         <div class="expertise__item-ico">
           <div class="bg-put_your_icon_here_218"></div>
         </div>
-        <div class="expertise__item-name">
+        <h3 class="expertise__item-name">
           GAME DEVELOPMENT
-        </div>
-        <div class="expertise__item-desc">
+        </h3>
+        <p class="expertise__item-desc">
           This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.
-        </div>
+        </p>
       </div>
       <div data-aos="fade-up" class="col">
         <div class="expertise__item-ico">
           <div class="bg-put_your_icon_here_219"></div>
         </div>
-        <div class="expertise__item-name">
+        <h3 class="expertise__item-name">
           MADE WITH LOVE
-        </div>
-        <div class="expertise__item-desc">
+        </h3>
+        <p class="expertise__item-desc">
           This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.
-        </div>
+        </p>
       </div>
     </div>
+  </div>
   </div>
 </section>
             
 <div class="team"> 
   <div class="container"> 
-    <div class="team__title" data-aos="fade-up">MEET OUR AMAZING TEAM</div>
-    <div class="team__desc" data-aos="fade-up">Lorem ipsum dolor sit amet proin gravida nibh vel velit</div>
+    <h2 class="team__title" data-aos="fade-up">MEET OUR AMAZING TEAM</h2>
+    <p class="team__desc" data-aos="fade-up">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
     <div class="team__divider" data-aos="fade-up"> </div>
     <div class="team-body"> 
       <div class="team-body__item" data-aos="fade-up">
         <div class="team-body__item-img"></div>
         <div class="team-body__item-bottom">
-          <div class="team-body__item-name">SEMF UCUK</div>
-          <div class="team-body__item-pos">CEO &amp; FOUNDER</div>
+          <h3 class="team-body__item-name">SEMF UCUK</h3>
+          <p class="team-body__item-pos">CEO &amp; FOUNDER</p>
         </div>
       </div>
       <div class="team-body__item" data-aos="fade-up">
         <div class="team-body__item-img"></div>
         <div class="team-body__item-bottom">
-          <div class="team-body__item-name">DIK ADALIN</div>
-          <div class="team-body__item-pos">ENGINEERING</div>
+          <h3 class="team-body__item-name">DIK ADALIN</h3>
+          <p class="team-body__item-pos">ENGINEERING</p>
         </div>
       </div>
       <div class="team-body__item" data-aos="fade-up">
         <div class="team-body__item-img"></div>
         <div class="team-body__item-bottom">
-          <div class="team-body__item-name">JENG KOL</div>
-          <div class="team-body__item-pos">DESIGNER</div>
+          <h3 class="team-body__item-name">JENG KOL</h3>
+          <p class="team-body__item-pos">DESIGNER</p>
         </div>
       </div>
       <div class="team-body__item" data-aos="fade-up">
         <div class="team-body__item-img"></div>
         <div class="team-body__item-bottom">
-          <div class="team-body__item-name">PET ROMAK</div>
-          <div class="team-body__item-pos">MARKETING</div>
+          <h3 class="team-body__item-name">PET ROMAK</h3>
+          <p class="team-body__item-pos">MARKETING</p>
         </div>
       </div>
     </div>
     <div class="team-bottom">
-      <div class="team-bottom__text" data-aos="fade-up">Become part of our dream team, let’s join us !</div><a class="main-body__btn" href="#" data-aos="fade-up">LEARN MORE</a>
+      <p class="team-bottom__text" data-aos="fade-up">Become part of our dream team, let’s join us !</p><a class="main-body__btn" href="#" data-aos="fade-up">LEARN MORE</a>
     </div>
   </div>
 </div>
@@ -261,9 +264,9 @@
     <!-- <div class="row justify-content-between"> -->
     <div class="works-top__body">
       <!-- <div class="col-sm-2"> -->
-      <div data-aos="fade-up" class="works__title">
+      <h2 data-aos="fade-up" class="works__title">
         OUR WORKS
-      </div>
+      </h2>
       <!-- </div> -->
       <!-- <div class="col-sm-3"> -->
       <div data-aos="fade-up" class="works__btn-all">
@@ -306,95 +309,95 @@
           <div class="review__quote">
             “
           </div>
-          <div class="review__text">
+          <p class="review__text">
             This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
             sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed
             odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio
             tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
-          </div>
+          </p>
           <div class="review__person">
-            <div class="review__name">
+            <h3 class="review__name">
               JANE GALADRIEL
-            </div>
-            <div class="review__pos">
+            </h3>
+            <p class="review__pos">
               CEO TENGKUREP
-            </div>
+            </p>
           </div>
         </div>
         <div class="swiper-slide">
           <div class="review__quote">
             “
           </div>
-          <div class="review__text">
+          <p class="review__text">
             This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
             sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed
             odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio
             tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
-          </div>
+          </p>
           <div class="review__person">
-            <div class="review__name">
+            <h3 class="review__name">
               JANE GALADRIEL
-            </div>
-            <div class="review__pos">
+            </h3>
+            <p class="review__pos">
               CEO TENGKUREP
-            </div>
+            </p>
           </div>
         </div>
         <div class="swiper-slide">
           <div class="review__quote">
             “
           </div>
-          <div class="review__text">
+          <p class="review__text">
             This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
             sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed
             odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio
             tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
-          </div>
+          </p>
           <div class="review__person">
-            <div class="review__name">
+            <h3 class="review__name">
               JANE GALADRIEL
-            </div>
-            <div class="review__pos">
+            </h3>
+            <p class="review__pos">
               CEO TENGKUREP
-            </div>
+            </p>
           </div>
         </div>
         <div class="swiper-slide">
           <div class="review__quote">
             “
           </div>
-          <div class="review__text">
+          <p class="review__text">
             This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
             sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed
             odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio
             tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
-          </div>
+          </p>
           <div class="review__person">
-            <div class="review__name">
+            <h3 class="review__name">
               JANE GALADRIEL
-            </div>
-            <div class="review__pos">
+            </h3>
+            <p class="review__pos">
               CEO TENGKUREP
-            </div>
+            </p>
           </div>
         </div>
         <div class="swiper-slide">
           <div class="review__quote">
             “
           </div>
-          <div class="review__text">
+          <p class="review__text">
             This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
             sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed
             odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio
             tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
-          </div>
+          </p>
           <div class="review__person">
-            <div class="review__name">
+            <h3 class="review__name">
               JANE GALADRIEL
-            </div>
-            <div class="review__pos">
+            </h3>
+            <p class="review__pos">
               CEO TENGKUREP
-            </div>
+            </p>
           </div>
         </div>
       </div>
@@ -432,9 +435,9 @@
 </section>
             <section class="form">
   <div class="container">
-    <div data-aos="fade-up" class="form__title">
+    <h2 data-aos="fade-up" class="form__title">
       GIVE US A GOOD NEWS
-    </div>
+    </h2>
     <div class="row justify-content-center">
       <div class="col-sm-6">
         <form class="form-content">
@@ -494,12 +497,12 @@
         <div class="footer-col__title">
           STAY IN TOUCH
         </div>
-        <div class="footer-input">
+        <form class="footer-input">
           <input class="footer-input__item" type="text" placeholder="Subscribe our newsletter">
           <button class="footer-input__btn">
-            <div class="bg-paper122_1721"></div>
+            <span class="bg-paper122_1721"></span>
           </button>
-        </div>
+        </form>
         <div class="footer-social">
           <div class="footer-social__item">
             <div class="footer-social__item-icon bg-facebook25_1697"></div>

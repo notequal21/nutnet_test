@@ -19,22 +19,33 @@ if (document.querySelector('.popup')) {
   const popupOpenBtn = document.querySelector('.popup-open')
   const popupCloseBtn = document.querySelector('.popup-body__close')
 
+  let pauseVideo = (state) => {
+    const div = document.querySelector(".popup-body__video");
+    let iframe = div.querySelector("#video-iframe").contentWindow;
+    div.style.display = state == 'hide' ? 'none' : '';
+    func = state == 'hide' ? 'pauseVideo' : '';
+    iframe.postMessage('{"event":"command","func":"' + func + '","args":""}', '*')
+  }
+
   popupOpenBtn.addEventListener('click', () => {
     if (!popup.classList.contains('active')) {
       popup.classList.add('active')
       body.classList.add('lock')
+      pauseVideo()
     }
   })
   popupBg.addEventListener('click', () => {
     if (popup.classList.contains('active')) {
       popup.classList.remove('active')
       body.classList.remove('lock')
+      pauseVideo('hide')
     }
   })
   popupCloseBtn.addEventListener('click', () => {
     if (popup.classList.contains('active')) {
       popup.classList.remove('active')
       body.classList.remove('lock')
+      pauseVideo('hide')
     }
   })
 }
